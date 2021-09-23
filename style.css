@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+html{
+    background-color: brown;
+    background-size:auto 100%;
+    background-position: center center;
+}
+
+body {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Hina Mincho', serif;
+    margin: 0;
+}
+
+h1{
+    
+    font-size: 4rem;
+    margin-top: -10rem;
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+}
+
+.countdown-container {
+    display: flex;
+    color: aliceblue;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+
+.countdown-el{
+    text-align: center;
+    font-weight: bold;
+}
+
+.countdown-el span{
+    font-size: 2rem;
+}
